@@ -1,0 +1,21 @@
+html {
+  font-size: 16px; }
+
+.content .role-list .role-box {
+  margin: 1rem;
+  box-sizing: border-box;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+  border: 0.3rem solid white;
+  text-align: center; }
+.content .role-list:after {
+  display: table;
+  content: " ";
+  clear: both; }
+
+/*# sourceMappingURL=04(godview).css.map */

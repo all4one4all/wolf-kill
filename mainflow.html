@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/05(mainflow).css">
+    <title>狼人杀</title>
+</head>
+<body>
+<header>
+    <p>上帝台本</p>
+</header>
+<div class="content">
+    <div class="game-flow">
+        <div class="day-order"></div>
+        <main>
+            <div class="wolf-action action-style">
+                <p>狼人请睁眼&nbsp;狼人请相互确认身份</p>
+                <div class="action">
+                    <button id="btn-01" class="action-btn">狼人请杀人</button>
+                </div>
+            </div>
+            <div class="witch-care-action action-style">
+                <p>狼人请闭眼 女巫请睁眼</p>
+                <div class="action">
+                    <button id="btn-02" class="action-btn">你要救吗</button>
+                </div>
+            </div>
+            <div class="witch-kill-action action-style">
+                <p>你有一瓶毒药</p>
+                <div class="action">
+                    <button id="btn-03" class="action-btn">你要使用吗</button>
+                </div>
+            </div>
+            <div class="prophet-action action-style">
+                <p>预言家请睁眼</p>
+                <div class="action">
+                    <button id="btn-04" class="action-btn">请选择一位玩家查验身份</button>
+                </div>
+            </div>
+            <div class="last-word-action action-style">
+                <p>天亮了</p>
+                <div class="action-02">
+                    <button id="btn-05" class="action-btn">请死者发表遗言</button>
+                </div>
+            </div>
+            <div class="speech-action action-style">
+                <button id="btn-06" class="action-btn">玩家依次发言</button>
+            </div>
+            <div class="vote-action action-style">
+                <p>发言完毕请玩家选择公投的对象</p>
+                <button id="btn-07" class="action-btn">投票</button>
+            </div>
+        </main>
+    </div>
+</div>
+<script src="src/jquery-3.3.1.js"></script>
+<script src="src/common.js"></script>
+<script src="src/state-machine.js"></script>
+<script src="src/05(mainflow).js"></script>
+</body>
+</html>

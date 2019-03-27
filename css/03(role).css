@@ -1,0 +1,21 @@
+html {
+  font-size: 16px; }
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .content .circle {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: white; }
+    .content .circle div {
+      width: 10rem;
+      height: 10rem;
+      font-size: 3rem;
+      color: #2f2f2f;
+      text-align: center;
+      line-height: 10rem; }
+
+/*# sourceMappingURL=03(role).css.map */
