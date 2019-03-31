@@ -36,3 +36,4 @@ mainflow：（狼人请杀人）
 wolf-kill：（狼人请统一意见）
 跳转
 mainflow：（你要救吗）
+mainflow: 	（你要使用吗）
