@@ -31,9 +31,21 @@ role-02：展示玩家角色（隐藏角色，传递给上帝）
 
 godview：（开始游戏）
 跳转
-mainflow：（狼人请杀人）
+mainflow：狼人请睁眼 狼人请相互确认身份（狼人请杀人）
 跳转
-wolf-kill：（狼人请统一意见）
+wolf-kill：选择玩家（狼人请统一意见）
 跳转
-mainflow：（你要救吗）
-mainflow: 	（你要使用吗）
+mainflow：狼人请闭眼 女巫请睁眼 今晚x号死了（你要救吗）
+mainflow: 	你有一瓶毒药（你要使用吗）
+跳转
+witch-kill：选择玩家（使用毒药）
+跳转
+mainflow：预言家请睁眼（请选择一位玩家查验身份）
+跳转
+prophet-check：选择玩家（查看此人身份）
+跳转
+mainflow：天亮了 昨晚x号死了（请死者发表遗言）
+mainflow：（玩家依次发言）
+mainflow：发言完毕请玩家选择公投的对象（投票）
+跳转
+vote：选择玩家（投死他）
