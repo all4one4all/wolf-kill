@@ -1,5 +1,10 @@
 # 狼人杀
 一部设备运行，一人充当上帝操作设备，身份由其他玩家相互传递设备查看。
+## 有限状态机
+### 引入
+```
+<script src="js/state-machine.js"></script>
+```
 ## 页面
 start：游戏简介
 member：玩家确定游戏人数
@@ -12,7 +17,7 @@ witch-kill：女巫毒药
 prophet-check：预言家查验身份
 vote：投票
 result：游戏结果
-## 逻辑功能
+## 功能
 member：根据玩家确定的人数，随机分配角色。（开始游戏）
 跳转
 
