@@ -1,17 +1,2 @@
-html {
-  font-size: 16px; }
-
-.content .game-result {
-  padding: 1rem 0;
-  font-size: 4rem;
-  text-align: center; }
-.content div .all-in {
-  text-align: center; }
-.content .game-flow .day-state {
-  padding: 0.6rem 0;
-  border-bottom: 1px solid rgba(47, 47, 47, 0.5); }
-  .content .game-flow .day-state .dayNum {
-    padding-bottom: 0.25rem;
-    font-size: 1.25rem; }
-
+html{font-size:16px}.content .game-result{padding:1rem 0;font-size:4rem;text-align:center}.content div .all-in{text-align:center}.content .game-flow .day-state{padding:0.6rem 0;border-bottom:1px solid rgba(47,47,47,0.5)}.content .game-flow .day-state .dayNum{padding-bottom:0.25rem;font-size:1.25rem}
 /*# sourceMappingURL=10(result).css.map */
