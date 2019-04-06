@@ -1,4 +1,8 @@
 $(function () {
+    var viewWidth = $(window).width();
+    var viewHeight = $(window).height();
+    $('html,body').width(viewWidth).height(viewHeight);
+
     function roleArr(p,f,sum) {
         var roleArr = ['女巫','预言家'];
         var randomRole = [],random;
