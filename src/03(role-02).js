@@ -1,8 +1,10 @@
 $(function () {
+    var viewWidth = $(window).width();
+    var viewHeight = $(window).height();
+    $('html,body').width(viewWidth).height(viewHeight);
+
     var role = JSON.parse(window.sessionStorage.getItem('role'));
-    console.log(role);
     var order = parseFloat(window.sessionStorage.getItem('order'));
-    console.log(order);
     $('.circle>div').html(role[order]);
     if((order+1)<role.length){
         $('footer>button').html("隐藏，传递给"+(order+2)+"号").click(function () {
