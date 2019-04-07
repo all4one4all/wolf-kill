@@ -1,15 +1,19 @@
 $(function () {
+    var viewWidth = $(window).width();
+    var viewHeight = $(window).height();
+    $('html,body').width(viewWidth).height(viewHeight);
+
     var roleState = JSON.parse(window.sessionStorage.getItem('roleState'));
-    console.log(roleState);
+
 
     var gameFlow =JSON.parse(window.sessionStorage.getItem('gameFlow'));
-    console.log(gameFlow);
+
     /*状态机[天数,流程页状态,女巫状态,预言家状态,平民人数,狼人人数,神民人数]*/
     /*女巫{1:死,2:解药毒药,3:解药,4:毒药}*/
     /*预言家{0:活,1:死}*/
     var stateMachine = JSON.parse(window.sessionStorage.getItem('stateMachine'));
     var day = stateMachine[0];
-    console.log(stateMachine);
+
 
     function forEachRole(arr) {
         var roleHtml = "";
