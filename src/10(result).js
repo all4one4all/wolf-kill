@@ -1,13 +1,16 @@
 $(function () {
+    var viewWidth = $(window).width();
+    var viewHeight = $(window).height();
+    $('html,body').width(viewWidth).height(viewHeight);
+
     var result = window.sessionStorage.getItem('result');
     $('.game-result').html(result+'获胜');
 
     var roleState = JSON.parse(window.sessionStorage.getItem('roleState'));
-    console.log(roleState);
+
 
     var gameFlow =JSON.parse(window.sessionStorage.getItem('gameFlow'));
-    console.log(gameFlow);
-    console.log(gameFlow.length);
+
 
     var stateMachine = JSON.parse(window.sessionStorage.getItem('stateMachine'));
 
@@ -52,7 +55,7 @@ $(function () {
             actionPart01 += "</div>";
             gameFlowHtml += actionPart01;
         }
-        console.log(gameFlowHtml);
+
         $('.game-flow').html(gameFlowHtml);
     }
     gameFlowHtml(gameFlow);
