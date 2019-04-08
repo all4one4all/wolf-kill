@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a0c11b-a95b-4fc3-a2f2-cfecc13378ad" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/witch-kill.html" afterPath="$PROJECT_DIR$/witch-kill.html" />
+      <change beforePath="$PROJECT_DIR$/wolf-kill.html" afterPath="$PROJECT_DIR$/wolf-kill.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,8 +16,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="witch-kill.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/witch-kill.html">
+      <file leaf-file-name="wolf-kill.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wolf-kill.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
               <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
@@ -44,6 +44,7 @@
         <option value="$PROJECT_DIR$/start.html" />
         <option value="$PROJECT_DIR$/vote.html" />
         <option value="$PROJECT_DIR$/witch-kill.html" />
+        <option value="$PROJECT_DIR$/wolf-kill.html" />
       </list>
     </option>
   </component>
@@ -53,7 +54,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="745" />
@@ -125,15 +126,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554725233273</updated>
-      <workItem from="1554725234769" duration="957000" />
+      <workItem from="1554725234769" duration="1033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="957000" />
+    <option name="totallyTimeSpent" value="1033000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -251,6 +252,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/witch-kill.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wolf-kill.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
