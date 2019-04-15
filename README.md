@@ -16,7 +16,7 @@ witch-kill：女巫毒药
 prophet-check：预言家查验身份
 vote：投票
 result：游戏结果
-## 功能
+## 逻辑
 member：根据玩家确定的人数，随机分配角色。（开始发牌）
 跳转
 
