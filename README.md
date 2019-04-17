@@ -1,17 +1,5 @@
 # 狼人杀
 ## 页面
-start：游戏简介
-member：玩家确定游戏人数
-role-01：号码
-role-02：角色
-godview：上帝视角，展示所有玩家身份
-mainflow：主游戏流程
-wolf-kill：狼人杀人
-witch-kill：女巫毒药
-prophet-check：预言家查验身份
-vote：投票
-result：游戏结果
-## 逻辑
 member：根据玩家确定的人数，随机分配角色`开始发牌`
 跳转role-01页面
 
