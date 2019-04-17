@@ -1,9 +1,4 @@
 # 狼人杀
-## 有限状态机
-### 引入
-```
-<script src="js/state-machine.js"></script>
-```
 ## 页面
 start：游戏简介
 member：玩家确定游戏人数
@@ -17,7 +12,7 @@ prophet-check：预言家查验身份
 vote：投票
 result：游戏结果
 ## 逻辑
-member：根据玩家确定的人数，随机分配角色。（开始发牌）
+member：根据玩家确定的人数，随机分配角色`开始发牌`
 跳转role-01页面
 
 role-01：展示玩家号码`查看1号身份`
@@ -55,4 +50,8 @@ mainflow：（玩家依次发言）
 mainflow：发言完毕请玩家选择公投的对象（投票）
 跳转
 vote：选择玩家（投死他）
-
+## 有限状态机
+### 引入
+```
+<script src="js/state-machine.js"></script>
+```
