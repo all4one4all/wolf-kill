@@ -34,9 +34,9 @@ role-02：展示玩家角色`隐藏，传递给上帝`
 跳转godview页面
 
 godview：`开始游戏`
-跳转mainflow
+跳转mainflow页面
 mainflow：狼人请睁眼 狼人请相互确认身份`狼人请杀人`
-跳转wolf-kill
+跳转wolf-kill页面
 wolf-kill：选择玩家`狼人请统一意见`
 **选择狼人** *狼人请勿自相残杀*
 **选择其他角色** 跳转mainflow
