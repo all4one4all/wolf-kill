@@ -75,3 +75,9 @@
 *否则，所有狼人是否全部死亡，（平民胜利） 跳转result页面*
 *否则，跳转mainflow页面*
 
+## 有限状态机
+### 引入
+```
+<script src="js/state-machine.js"></script>
+```
+
